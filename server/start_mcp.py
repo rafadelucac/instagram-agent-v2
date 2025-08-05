@@ -123,8 +123,8 @@ def setup_uvicorn_app():
     
     config = get_config()
     
-    # Load tools from base directory (parent level only)
-    base_tools = load_tools_from_directory(DEFAULT_TOOLS_DIR, parent_only=True)
+    # Load tools from base directory (including subdirectories)
+    base_tools = load_tools_from_directory(DEFAULT_TOOLS_DIR, parent_only=False)
     
     # Load tools from specified directory (if different from base)
     specified_tools = []
@@ -150,8 +150,8 @@ if __name__ == "__main__":
     
     config = get_config()
     
-    # Load tools from base directory (parent level only)
-    base_tools = load_tools_from_directory(DEFAULT_TOOLS_DIR, parent_only=True)
+    # Load tools from base directory (including subdirectories)
+    base_tools = load_tools_from_directory(DEFAULT_TOOLS_DIR, parent_only=False)
     
     # Load tools from specified directory (if different from base)
     specified_tools = []

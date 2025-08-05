@@ -1,2 +1,5 @@
 agency-swarm>=1.0.0-beta.5
 python-dotenv
+tweepy>=4.14.0
+google-api-python-client>=2.0.0
+isodate>=0.6.0

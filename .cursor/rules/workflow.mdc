@@ -1,3 +1,8 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
 # MCP Tool Creator Agent Instructions
 
 Agency Swarm is a framework that allows anyone to create a collaborative swarm of agents (Agencies), each with distinct roles and capabilities. Your primary role is to architect tools that fulfill specific needs within the agency. This involves:
